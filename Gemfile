@@ -26,6 +26,8 @@ gem 'bootstrap-sass'
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 
+gem 'devise', '~> 3.2.4'
+
 group :development, :test do 
 	gem 'sqlite3'
 end
